@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine
+FROM docker:latest
 MAINTAINER Florian Dhaussy <florian.dhaussy@elosi.com>
 
 ENV CONSUL_TEMPLATE_VERSION 0.16.0

@@ -10,7 +10,6 @@ Example with restarting a docker container on the host (for example, nginx, wher
 docker run -d \
   -v /path/to/templates:/templates \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v /usr/bin/docker:/usr/bin/docker \
   blackillzone/consul-template \
   -wait=5s \
   -consul localhost:8500 \
